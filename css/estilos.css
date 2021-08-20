@@ -1,17 +1,26 @@
 body{
-<<<<<<< HEAD
+    background: #32364b;
     color:#333;
-    text-align: left;
-    font-family:"Arial";
+    text-align: center;
+    font-family: "Corporate Logo Rounded ver2";
+    margin:1em;
+    padding: 0;
 }
 #cabecera
 {
-    background:#33A;
+    background:#d63333;
     color: white;
     margin:0;
     font-weight: bold;
+    font-size: 30px;
     box-shadow:0px 2px 20px 0px rgba(0, 0, 0, 0.5);
-    padding:0.5em;
+    padding:0.5em 0 0.5em 2em;
+}
+#cabecera #logo
+{   border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
 }
 #container
 {
@@ -26,13 +35,14 @@ body{
 {   
     padding: 0 0 0 1em;
     font-weight: normal;
-    font-size:0.8em;
+    font-size:0.7em;
 }
 #container h1
 {
     font-size: 20px;
 }
 #post
-{
+{ 
+    background: white;
     padding: 1em;
 }
