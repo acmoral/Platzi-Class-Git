@@ -41,8 +41,17 @@ body{
 {
     font-size: 20px;
 }
+#footer
+{
+    background: rgb(107, 105, 128);
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    padding: 0.4em;
+}
 #post
 { 
     background: white;
     padding: 1em;
+    
 }
